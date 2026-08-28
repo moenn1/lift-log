@@ -10,7 +10,8 @@
         { "exercise": "Barbell bench press", "weightKg": 60, "reps": 8 },
         { "exercise": "Barbell squat", "weightKg": 80, "reps": 5 },
         { "exercise": "Pull-up", "weightKg": 0, "reps": 8 }
-      ]
+      ],
+      "cardio": [{ "activity": "Running", "durationMinutes": 32, "distanceKm": 5, "averageHeartRate": 148, "intensity": "easy" }]
     },
     {
       "id": "second-session",
