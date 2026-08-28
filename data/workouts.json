@@ -24,5 +24,8 @@
       ]
     }
   ],
-  "records": []
+  "records": [
+    { "exercise": "Barbell bench press", "value": 62.5, "unit": "kg", "metric": "heaviest set", "date": "2026-08-28", "prUrl": "https://github.com/moenn1/lift-log/pull/1" },
+    { "exercise": "Pull-up", "value": 10, "unit": "reps", "metric": "max reps", "date": "2026-08-28", "prUrl": "https://github.com/moenn1/lift-log/pull/1" }
+  ]
 }
