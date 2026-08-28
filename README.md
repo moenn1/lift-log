@@ -15,6 +15,12 @@ There is deliberately no browser write access, server, database, token, or login
 
 Each workout has an ISO date, a name, and sets with `exercise`, `weightKg`, and `reps`. Records are optional objects such as:
 
+Cardio can be recorded on the same workout with `activity`, `durationMinutes`, `distanceKm`, and optional heart-rate/intensity fields:
+
+```json
+{ "activity": "Running", "durationMinutes": 32, "distanceKm": 5, "averageHeartRate": 148, "intensity": "easy" }
+```
+
 ```json
 { "exercise": "Barbell bench press", "value": 100, "unit": "kg", "metric": "1RM", "date": "2026-08-28", "prUrl": "https://github.com/moenn1/lift-log/pull/1" }
 ```
