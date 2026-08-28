@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lift Log · Train. Commit. Merge.</title><link rel="stylesheet" href="styles.css"><script type="module" src="app.js"></script>
+</head>
+<body>
+<header class="topbar"><a class="brand" href="./"><span class="prompt">$</span> lift-log</a><nav><a href="#dashboard">Dashboard</a><a href="#records">Records</a><a href="#history">History</a><a href="https://github.com/moenn1/lift-log">Repository ↗</a></nav></header>
+<main id="dashboard">
+<section class="hero"><div><p class="eyebrow">PERSONAL TRAINING LEDGER</p><h1>Every rep is a commit.</h1><p class="lede">A read-only workout dashboard. Your GitHub repository is the database; every update arrives through a pull request.</p></div><div class="terminal"><div><span class="dot red"></span><span class="dot amber"></span><span class="dot green"></span></div><p><span class="muted">~/lift-log</span> git log --oneline</p><p class="success">main ← merged PRs</p><p class="muted">read-only mode enabled</p></div></section>
+<section class="stats" aria-label="Summary"><article><span>WORKOUTS</span><strong id="workout-count">—</strong></article><article><span>VOLUME</span><strong id="volume-total">—</strong></article><article><span>PRs / RECORDS</span><strong id="record-count">—</strong></article><article><span>STREAK</span><strong id="streak-count">—</strong></article></section>
+<section id="records"><div class="section-heading"><div><p class="eyebrow">PERSONAL RECORDS</p><h2>Latest milestones</h2></div><span class="chip">MERGED DATA</span></div><div id="records-list" class="record-grid"></div></section>
+<section id="history"><div class="section-heading"><div><p class="eyebrow">TRAINING HISTORY</p><h2>Recent sessions</h2></div></div><div id="history-list" class="history-list"></div></section>
+<section class="how"><p class="eyebrow">THE WRITE PATH</p><h2>Updates happen in pull requests.</h2><ol><li><b>Edit</b> <code>data/workouts.json</code> on a branch.</li><li><b>Open</b> a PR such as <code>workout: 2026-08-28 push day</code>.</li><li><b>Merge</b> after review. GitHub Pages redeploys from <code>main</code>.</li></ol><a class="button" href="https://github.com/moenn1/lift-log">Open repository ↗</a></section>
+<p id="load-error" class="error" hidden>Could not load the workout ledger. Check that <code>data/workouts.json</code> is committed.</p>
+</main><footer><span>lift-log / static by design</span><span id="last-updated"></span></footer>
+</body></html>

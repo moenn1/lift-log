@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updatedAt": "2026-08-28T00:00:00Z",
+  "workouts": [
+    {
+      "id": "seed-001",
+      "date": "2026-08-28",
+      "name": "First commit",
+      "sets": [
+        { "exercise": "Barbell bench press", "weightKg": 60, "reps": 8 },
+        { "exercise": "Barbell squat", "weightKg": 80, "reps": 5 },
+        { "exercise": "Pull-up", "weightKg": 0, "reps": 8 }
+      ]
+    }
+  ],
+  "records": []
+}
