@@ -11,6 +11,15 @@
         { "exercise": "Barbell squat", "weightKg": 80, "reps": 5 },
         { "exercise": "Pull-up", "weightKg": 0, "reps": 8 }
       ]
+    },
+    {
+      "id": "demo-pr-session",
+      "date": "2026-08-28",
+      "name": "PR test session",
+      "sets": [
+        { "exercise": "Barbell bench press", "weightKg": 62.5, "reps": 1 },
+        { "exercise": "Pull-up", "weightKg": 0, "reps": 10 }
+      ]
     }
   ],
   "records": [
