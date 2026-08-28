@@ -23,9 +23,8 @@ The UI calculates total volume as the sum of weight × reps. It is a training lo
 
 ## GitHub Pages
 
-In repository Settings → Pages, select **GitHub Actions** as the source. The workflow in `.github/workflows/pages.yml` uploads the repository as a static artifact and deploys it whenever `main` changes.
+Pages must be enabled once by a repository administrator; GitHub does not allow the normal workflow token to create the Pages site automatically. In repository **Settings → Pages**, select **GitHub Actions** as the source, save, and rerun the workflow. The workflow in `.github/workflows/pages.yml` uploads the repository as a static artifact and deploys it whenever `main` changes. For private repositories, Pages availability depends on your GitHub plan; making this personal repository public is the simplest free option.
 
 ## Dataset
 
 The exercise names were inspired by [exercises-dataset](https://github.com/hasaneyldrm/exercises-dataset). Its README describes MIT-licensed data and separately attributed media; this project does not redistribute the dataset's images or GIFs.
-
