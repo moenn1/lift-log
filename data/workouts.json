@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-28T18:30:00Z",
+  "updatedAt": "2026-08-29T18:30:00Z",
   "workouts": [
     {
       "id": "seed-001",
@@ -10,6 +10,17 @@
         { "exercise": "Barbell bench press", "weightKg": 60, "reps": 8 },
         { "exercise": "Barbell squat", "weightKg": 80, "reps": 5 },
         { "exercise": "Pull-up", "weightKg": 0, "reps": 8 }
+      ]
+    },
+    {
+      "id": "second-session",
+      "date": "2026-08-29",
+      "name": "Lower body + pull",
+      "sets": [
+        { "exercise": "Barbell squat", "weightKg": 90, "reps": 5 },
+        { "exercise": "Barbell squat", "weightKg": 95, "reps": 3 },
+        { "exercise": "Deadlift", "weightKg": 110, "reps": 3 },
+        { "exercise": "Pull-up", "weightKg": 0, "reps": 11 }
       ]
     }
   ],
